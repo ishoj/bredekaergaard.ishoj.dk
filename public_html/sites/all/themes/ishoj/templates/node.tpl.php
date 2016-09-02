@@ -301,7 +301,7 @@ $output .= "<section id=\"node-" . $node->nid . "\" class=\"" . $classes . " art
         }
         // Offentlig ture
         if($node->nid == 1629) {
-          $output .= json_aktivitetsliste('3121'); // Arrangør: Ishøj Naturcenter = tid 3121
+          $output .= json_aktivitetsliste('3321'); // Arrangør: Bredekærgård = tid 3321
         }
 
 
