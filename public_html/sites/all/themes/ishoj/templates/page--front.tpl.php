@@ -476,7 +476,7 @@
                 <div class="swiper-wrapper">
                 <?php
                   $output = "";
-                  $url = "http://www.ishoj.dk/json_aktiviteter_arrangoer_tid/3321?no_login=1&hest=" . rand();
+                  $url = "http://www.ishoj.dk/infotv/json_aktiviteter_arrangoer_tid/3321?no_login=1&hest=" . rand();
                   // Arrangør: Bredekaergaard = tid 3321
                   $request = drupal_http_request($url);
                   $json_response = drupal_json_decode($request->data);
